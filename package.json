@@ -9,17 +9,27 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@types/node": "20.4.9",
+    "@heroicons/react": "^2.0.18",
+    "@prisma/client": "^5.1.1",
+    "@tailwindcss/line-clamp": "^0.4.4",
+    "@tailwindcss/typography": "^0.5.9",
+    "@tiptap/pm": "^2.0.4",
+    "@tiptap/react": "^2.0.4",
+    "@tiptap/starter-kit": "^2.0.4",
+    "@types/node": "^20.4.9",
     "@types/react": "18.2.19",
     "@types/react-dom": "18.2.7",
     "autoprefixer": "10.4.14",
     "eslint": "8.46.0",
     "eslint-config-next": "13.4.13",
     "next": "13.4.13",
+    "openai": "^3.3.0",
     "postcss": "8.4.27",
+    "prisma": "^5.1.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "tailwindcss": "3.3.3",
+    "ts-node": "^10.9.1",
     "typescript": "5.1.6"
   }
 }

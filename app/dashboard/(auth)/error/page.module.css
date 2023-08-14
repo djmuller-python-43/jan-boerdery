@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.link {
+  color: #B05842;
+}
+
+.link:hover {
+  color: #a14c37;
+}
