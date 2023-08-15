@@ -8,7 +8,9 @@ const config: Config = {
   darkMode: 'class',
   theme: {
     extend: {
-      
+      screens: {
+        xxl: "1540px",
+      }
     },
   },
   plugins: [],

@@ -46,7 +46,7 @@ const Navbar = (props: Props) => {
   const toggle = () => setMenuOpen(!menuOpen);
   return (
     <header>
-      <nav className="w-full h-24 fixed top-0 left-0 right-0 z-50">
+      <nav className=" max-w-screen-2xl mx-auto h-24 fixed top-0 left-0 right-0 z-50">
         {/* Desktop Menu */}
         <div className="flex justify-between items-center w-full h-full px-4">
           <Link href="/">

@@ -10,7 +10,7 @@ export const metadata = {
 
 const About = () => {
   return (
-    <div className='pt-5 px-5 md:pr-14 md:ml-10 lg:pr-6 lg:mt-60 lg:ml-0'>
+    <div className='max-w-screen-2xl mx-5 lg:mx-10 xxl:mx-auto mt-32'>
       <div className={ styles.imgContainer }>
         <Image src='' alt='header image' fill={ true } className={ styles.img }/>
         <div className={ styles.imgText }>

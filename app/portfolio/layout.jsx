@@ -8,9 +8,9 @@ export const metadata = {
 
 const Layout = ({ children }) => {
   return (
-    <div>
+    <div className='pt-32 lg:flex lg:flex-col lg:items-center'>
       <Link href='/portfolio'>
-        <h1 className='md:my-5 md:mx-[14px] pt-28 md:pt-28 text-5xl text-center md:text-left md:ml-[14px]'>My Works</h1>
+        <h1 className='text-5xl text-center'>My Works</h1>
       </Link>
       { children }
     </div>

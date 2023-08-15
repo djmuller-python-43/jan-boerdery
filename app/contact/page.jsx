@@ -65,10 +65,10 @@ const Contact = () => {
   }
     
   return (
-    <div className='bg-inherit pt-20 mx-5'>
+    <div className='bg-inherit max-w-screen-2xl pt-20 mx-5 xxl:mx-auto'>
       <h1 className='text-3xl md:text-5xl my-5 text-center'>Let&apos;s Keep In Touch</h1> {/* Title */}
       <div className='w-full mt-10 md:flex md:items-center gap-[50px] md:mt-20'> {/* content container */}
-        <div className='w-full h-[250px] md:h-[300px] lg:h-[400px] relative mb-10'> {/* ImgContainer */}
+        <div className='w-full h-[250px] md:h-[400px] xxl:h-[450px] relative mb-10'> {/* ImgContainer */}
           <Image
             src="/contact.png"
             alt="Beautiful blonde call centre operator"
@@ -77,7 +77,7 @@ const Contact = () => {
           />
         </div>
         <form className='mb-5' onSubmit={handleSubmit}> {/* form */}
-          <input type="text" value={fullname} onChange={e => setFullname(e.target.value)} placeholder="Name" className='w-full mb-2 p-5 bg-transparent border-[1px] text-xl border-solid border-[#224C5C] text-[#9BCBD3]' /> {/* input */}
+          <input type="text" value={fullname} onChange={e => setFullname(e.target.value)} placeholder="Name" className='w-full mb-2 p-5 bg-transparent border-[1px] text-xl border-solid border-[#224C5C]' /> {/* input */}
           <input type="text" value={email} onChange={e => setEmail(e.target.value)} placeholder="Email" className='w-full mb-2 p-5 bg-transparent border-[1px] text-xl border-solid border-[#224C5C] text-[#9BCBD3]' /> {/* input */}
           <textarea value={message} onChange={e => setMessage(e.target.value)} className='w-full p-5 bg-transparent border-[1px] text-xl border-solid border-[#224C5C] text-[#9BCBD3]' placeholder="Message" cols="30" rows="5"></textarea> {/* textarea */}
           <button className='bg-[#B05842] p-5 rounded-md mt-2' type='submit'>Send</button>

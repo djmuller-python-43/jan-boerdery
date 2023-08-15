@@ -10,7 +10,7 @@ const Portfolio = () => {
   return (
     <div>
       <h1 className='text-center text-xl my-3 md:text-left md:ml-[14px]'>Choose A Gallery</h1>
-      <div className='flex flex-col items-center gap-y-5 mb-5 md:flex md:flex-row md:ml-[5px]md:mr-[5px] md:mx-2 md:gap-2'>
+      <div className='flex flex-col items-center gap-y-5 mb-5 md:flex md:flex-row md:mx-5 md:gap-2 lg:gap-20'>
         <Link href='/portfolio/logos' className={ styles.item }>
           <span className='absolute bottom-3 right-[105px] md:right-[15px] text-3xl md:text-xl font-bold'>Logos</span>
         </Link>
