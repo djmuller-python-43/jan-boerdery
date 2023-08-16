@@ -48,6 +48,9 @@ const Navbar = (props: Props) => {
               src={logo}
               height={50}
               width={200}
+              quality="85"
+              loading="lazy"
+              priority={true}
               className="cursor-pointer"
               alt="Duane Muller Web Design logo"
             />
@@ -89,6 +92,9 @@ const Navbar = (props: Props) => {
               src={logo}
               height={50}
               width={200}
+              quality="85"
+              loading="lazy"
+              priority={true}
               className="cursor-pointer"
               alt="Duane Muller Web Design logo"
             />
