@@ -13,8 +13,8 @@ body {
   max-width: 100vw;
   min-height: 100vh;
   overflow-x: hidden;
-  background-color: #0b2341;
-  color: #9BCBD3;
+  background-color: #091f33;
+  color: #0eeca2;
 }
 
 a {
@@ -32,8 +32,8 @@ a {
 }
 
 .dark, nav{
-  background-color: #0b2341;
-  color: #9BCBD3;
+  background-color: #091f33;
+  color: #0a9f6d;
 }
 
 .container {

@@ -18,24 +18,18 @@ const links = [
   },
   {
     id: 2,
-    title: "Portfolio",
-    url: "/portfolio",
-  },
-  /* Blog page goes here */
-  {
-    id: 3,
     title: "About",
     url: "/about",
   },
   {
-    id: 4,
-    title: "Contact",
-    url: "/contact",
+    id: 3,
+    title: "Products",
+    url: "/products",
   },
   {
-    id: 5,
-    title: "Dashboard",
-    url: "/dashboard",
+    id: 4,
+    title: "063 206 5423",
+    url: "#"
   },
 ];
 
@@ -58,13 +52,12 @@ const Navbar = (props: Props) => {
               alt="Duane Muller Web Design logo"
             />
           </Link>
-            <DarkMode />
-            
+            <DarkMode /> 
           <div className="hidden sm:flex sm:px-4">
             <ul className="hidden sm:flex sm:justify-between sm:items-center sm:gap-4  ">
               {links.map((link) => (
                 <Link key={link.id} href={link.url}>
-                  <li className="sm:hover:text-[#B05842] ease-in-out duration-500">
+                  <li className="sm:hover:text-[#0eeca2] ease-in-out duration-500">
                     {link.title}
                   </li>
                 </Link>
@@ -76,7 +69,7 @@ const Navbar = (props: Props) => {
 
           {/* Mobile Menu */}
           <div className="sm:hidden cursor-pointe">
-            <BsList onClick={toggle} className="h-8 w-8 text-[#B05842]" />
+            <BsList onClick={toggle} className="h-8 w-8 text-[#0eeca2]" />
           </div>
         </div>
         <div
@@ -88,7 +81,7 @@ const Navbar = (props: Props) => {
         >
           <div className="flex w-full items-center justify-end">
             <div className="cursor-pointer">
-              <BsX onClick={toggle} className="h-8 w-8 text-[#B05842]" />
+              <BsX onClick={toggle} className="h-8 w-8 text-[#0eeca2]" />
             </div>
           </div>
           <Link href="/">
@@ -105,7 +98,7 @@ const Navbar = (props: Props) => {
             <ul className="">
               {links.map((link) => (
                 <Link key={link.id} href={link.url}>
-                  <li className="py-4 hover:text-[#B05842]" onClick={() => setMenuOpen(false)}>{link.title}</li>
+                  <li className="py-4 hover:text-[#0eeca2]" onClick={() => setMenuOpen(false)}>{link.title}</li>
                 </Link>
               ))}
 		           {/*  { session.status === 'authenticated' && 

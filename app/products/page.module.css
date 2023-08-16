@@ -31,14 +31,20 @@
 }
 
 .item:nth-child(1) {
-  background: url('/logos.png');
+  background: url('/greenbeans.png');
   background-size: contain;
 }
 .item:nth-child(2) {
-  background: url('/websites.jpg');
+  background: url('/tomatoes.png');
 }
 .item:nth-child(3) {
-  background: url('/apps.png');
+  background: url('/plums.png');
+}
+.item:nth-child(4) {
+  background: url('/peaches.png');
+}
+.item:nth-child(5) {
+  background: url('/apricots.png');
 }
 
 .title {
