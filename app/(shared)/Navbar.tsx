@@ -29,7 +29,7 @@ const links = [
   {
     id: 4,
     title: "063 206 5423",
-    url: "#"
+    url: "tel:063 206 5423"
   },
 ];
 
